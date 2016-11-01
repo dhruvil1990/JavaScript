@@ -28,3 +28,4 @@ function merge(left, right){
   //remaining part needs to be addred to the result
   return result.concat(left.slice(l)).concat(right.slice(r));
 }
+mergeSort([7,5,2,4,6,8]); //[2, 4, 5, 6, 7, 8]
